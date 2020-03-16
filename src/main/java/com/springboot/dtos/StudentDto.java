@@ -39,4 +39,9 @@ public class StudentDto {
 		this.phoneNo = phoneNo;
 	}
 
+	@Override
+	public String toString() {
+		return "StudentDto [id=" + id + ", name=" + name + ", address=" + address + ", phoneNo=" + phoneNo + "]";
+	}
+
 }

@@ -17,4 +17,9 @@ public class StudentService {
 		return s;
 	}
 
+	public void createStudent() {
+		
+
+	}
+
 }
